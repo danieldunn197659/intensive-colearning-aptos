@@ -1,0 +1,21 @@
+{
+  "name": "ts_sdk_basic_usage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aptos-labs/ts-sdk": "^1.27.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.4",
+    "dotenv": "^16.4.5",
+    "tslint": "^6.1.3",
+    "typescript": "^5.6.2"
+  }
+}

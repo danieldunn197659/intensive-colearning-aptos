@@ -1,0 +1,16 @@
+[package]
+name = "aptos_todo_list"
+version = "1.0.0"
+authors = []
+
+[addresses]
+todo_list_addr = "0xcb3303e6b96a1a666347bd06e27d24cc0cb09e204fedb6223a7bc9091dc49022"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
